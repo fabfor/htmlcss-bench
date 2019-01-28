@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+
+.hero img{
+  width: 100%;
+}
+
+.hero-item {
+  position: relative;
+}
+
+.hero-button{
+  position: absolute;
+  bottom: 250px;
+  text-transform: uppercase;
+}
+
+.hero-button.right{
+  right:0;
+}
+
+.hero-button.left{
+  left:0
+}
+
+.half{
+  float: left;
+  width: 50%
+}
+
+.button{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background: transparent;
+    font-family: "BrandonTextWeb-Regular", Arial, sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.claim{
+  padding: 10px 0;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: -1px -1px 0 #c51e00, 1px -1px 0 #c51e00, -1px 1px 0 #c51e00, 1px 1px 0 #c51e00;
+}
+
+[background="orange"]{
+  background-color: #C08B68;
+}
+
+.banner-promotion{
+  color: white;
+  padding: 30px 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.promo-container{
+  height: 400px;
+  position: relative;
+}
+
+.vh-center{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.promo-container#promo1{
+  background-image: url('https://bench.ca/media/wysiwyg/2019/wk30/banner-sale.jpg');
+  background-size: cover;
+}
+
+.container{
+  width: 1200px;
+  margin:auto;
+}
+
+.clearfix:after{
+  display: table;
+  content: '';
+  clear: both;
+}
+.wearable {
+  position: relative;
+}
+
+.wearable > img{
+  width: 100%;
+}
